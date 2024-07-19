@@ -5,21 +5,23 @@ import { StickyScroll } from "./Sticky";
 const content = [
   {
     title: "1930 Media",
+    link: "https://1930temp.netlify.app",
     description:
       "A professional and dynamic portfolio website made for 1930 Media a marketing agency located in Kingston Jamaica. Built with React, Tailwind, and GSAP.",
     content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-        1930 Media Webside Screenshot
+      <div className="h-full w-full flex items-center justify-center text-white">
+        <img src="/1930media.png" alt="" className="w-full h-[100%] object-fill"/>
       </div>
     ),
   },
   {
     title: "Apple iPhone Pro",
+    link: "https://iphonegsap.netlify.app",
     description:
       "A sleek and modern looking website made to showcase the Apple iPhone Pro and its new Titanium body and brand new chip. Built with React, Tailwind, and GSAP.",
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
-        iPhone Webside Screenshot
+        <img src="/iphone.png" alt="" className="w-full h-[100%] object-fill"/>
       </div>
     ),
   },

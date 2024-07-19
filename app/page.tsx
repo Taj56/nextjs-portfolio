@@ -1,8 +1,9 @@
 
+import About from "./components/About";
 import { FloatingNavDemo } from "./components/FloatingNav";
 import { Grid } from "./components/Grid";
 import Projects from "./components/Projects";
-import { GridBackgroundDemo } from "./components/ui/Background";
+import { GridBackground } from "./components/ui/Background";
 import { Spotlight } from "./components/ui/Lights";
 
 export default function Home() {
@@ -10,8 +11,8 @@ export default function Home() {
     <>
     <Spotlight fill="#00674f"/>
     <FloatingNavDemo />
-    <GridBackgroundDemo />
-    <Grid />
+    <GridBackground />
+    <About />
     <Projects />
     </>
   );

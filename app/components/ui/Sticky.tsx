@@ -11,6 +11,7 @@ export const StickyScroll = ({
   content: {
     title: string;
     description: string;
+    link: string;
     content?: React.ReactNode | any;
   }[];
   contentClassName?: string;
@@ -41,8 +42,8 @@ export const StickyScroll = ({
   });
 
   const backgroundColors = [
-    "var(--slate-900)",
-    "var(--black)",
+    "var(--neutral-900)",
+    "var(--neutral-900)",
     "var(--neutral-900)",
   ];
   const linearGradients = [
@@ -93,9 +94,9 @@ export const StickyScroll = ({
               >
                 {item.description}
 
-                {/* todo add link */}
-                {/* <a href="">{item.link}</a> */}
+                {/* todo add link */} <br />
 
+                <a href={item.link} className="text-emerald-500 underline" target="_blank">{item.title}</a>
               </motion.p>
             </div>
           ))}
@@ -105,7 +106,7 @@ export const StickyScroll = ({
       <div
         style={{ background: backgroundGradient }}
         className={cn(
-          "hidden lg:block h-60 w-80 rounded-md bg-white sticky top-10 overflow-hidden",
+          "hidden lg:block h-64 w-[450px] rounded-md bg-white sticky top-10 overflow-hidden",
           contentClassName
         )}
       >

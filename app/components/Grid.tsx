@@ -29,30 +29,30 @@ const Skeleton = () => (
 );
 const items = [
   {
-    title: "some text here to show something idk nigga",
-    description: "some text here to show something idk nigga.",
+    title: "FILLER TEXT TO BE REPLACED",
+    description: "FILLER TEXT TO BE REPLACED.",
     header: <Skeleton />,
     className: "md:col-span-2",
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "some text here to show something idk nigga",
-    description: "some text here to show something idk nigga.",
+    title: "FILLER TEXT TO BE REPLACED",
+    description: "FILLER TEXT TO BE REPLACED.",
     header: <Skeleton />,
     className: "md:col-span-1",
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "some text here to show something idk nigga",
-    description: "some text here to show something idk nigga.",
+    title: "FILLER TEXT TO BE REPLACED",
+    description: "FILLER TEXT TO BE REPLACED.",
     header: <Skeleton />,
     className: "md:col-span-1",
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "some text here to show something idk nigga",
+    title: "FILLER TEXT TO BE REPLACED",
     description:
-      "some text here to show something idk nigga.",
+      "FILLER TEXT TO BE REPLACED.",
     header: <Skeleton />,
     className: "md:col-span-2",
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
