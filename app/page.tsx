@@ -1,6 +1,6 @@
 
 import About from "./components/About";
-import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import { FloatingNavDemo } from "./components/FloatingNav";
 import MyAproach from "./components/MyAproach";
 import Projects from "./components/Projects";
@@ -16,7 +16,7 @@ export default function Home() {
     <About />
     <Projects />
     <MyAproach />
-    {/* <Contact /> */}
+    <Footer />
     </>
   );
 }
