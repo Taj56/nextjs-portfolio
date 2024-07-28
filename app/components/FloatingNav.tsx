@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { FloatingNav } from "./ui/FloatingNavbar";
-import { IconHome, IconBubble, IconUser } from "@tabler/icons-react";
+import { IconHome, IconBubble, IconUser, IconStairs } from "@tabler/icons-react";
 export function FloatingNavDemo() {
   const navItems = [
     {
@@ -19,6 +19,13 @@ export function FloatingNavDemo() {
       link: "#projects",
       icon: (
         <IconBubble className="h-4 w-4 text-neutral-500 dark:text-white" />
+      ),
+    },
+    {
+      name: "Approach",
+      link: "#approach",
+      icon: (
+        <IconStairs className="h-4 w-4 text-neutral-500 dark:text-white" />
       ),
     },
   ];
