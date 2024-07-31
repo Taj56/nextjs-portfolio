@@ -23,10 +23,10 @@ export function GridBackground() {
 
   return (
     <div className="h-screen w-full bg-black bg-grid-white/[0.1] relative flex items-center justify-center flex-col text-center" id="home">
-      <p className="text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text py-8">
+      <p className="text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text py-8 text-white">
         Passionate <br /> <span className="text-emerald-500" id="sub"></span>
       </p>
-      <p className="text-2xl md:text-4xl">
+      <p className="text-2xl md:text-4xl text-white">
         Hi I'm Tajay, a <span className="text-emerald-500 mb-12">React</span>.js Developer based in Jamaica
       </p>
 
