@@ -15,16 +15,27 @@ const content = [
     ),
   },
   {
-    title: "Apple iPhone Pro",
-    link: "https://iphonegsap.netlify.app",
+    title: "Paradise Inn",
+    link: "https://paradise-dev-test.vercel.app",
     description:
-      "A sleek and modern looking website made to showcase the Apple iPhone Pro and its new Titanium body and brand new chip. Built with React, Tailwind, and GSAP.",
+      "A website for a small hotel, with a fully functional booking system. Built with NextJS, Tailwind, and Sanity.",
     content: (
-      <div className="h-full w-full  flex items-center justify-center text-white">
-        <img src="/iphone.png" alt="" className="w-full h-[100%] object-fill"/>
+      <div className="h-full w-full flex items-center justify-center text-white">
+        <img src="/paradise-inn.png" alt="" className="w-full h-[100%] object-fill"/>
       </div>
     ),
   },
+  // {
+  //   title: "Apple iPhone Pro",
+  //   link: "https://iphonegsap.netlify.app",
+  //   description:
+  //     "A sleek and modern looking website made to showcase the Apple iPhone Pro and its new Titanium body and brand new chip. Built with React, Tailwind, and GSAP.",
+  //   content: (
+  //     <div className="h-full w-full  flex items-center justify-center text-white">
+  //       <img src="/iphone.png" alt="" className="w-full h-[100%] object-fill"/>
+  //     </div>
+  //   ),
+  // },
   {
     title: "Comic Blog",
     link: "https://myblog-tajay.vercel.app",
